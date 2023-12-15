@@ -1,0 +1,67 @@
+{
+    "output": {
+        "bass_enhancer#0": {
+            "amount": 17.99999999999997,
+            "blend": -10.0,
+            "bypass": false,
+            "floor": 10.0,
+            "floor-active": false,
+            "harmonics": 10.0,
+            "input-gain": 0.0,
+            "output-gain": -10.0,
+            "scope": 70.0
+        },
+        "bass_loudness#0": {
+            "bypass": false,
+            "input-gain": 0.0,
+            "link": -2.7755575615628914e-17,
+            "loudness": -4.000000000000002,
+            "output": -9.0,
+            "output-gain": 0.0
+        },
+        "blocklist": [],
+        "deesser#0": {
+            "bypass": false,
+            "detection": "RMS",
+            "f1-freq": 6000.0,
+            "f1-level": 0.0,
+            "f2-freq": 4500.0,
+            "f2-level": 12.0,
+            "f2-q": 1.0,
+            "input-gain": 0.0,
+            "laxity": 15,
+            "makeup": 0.0,
+            "mode": "Wide",
+            "output-gain": 0.0,
+            "ratio": 3.0,
+            "sc-listen": false,
+            "threshold": -18.0
+        },
+        "limiter#0": {
+            "alr": false,
+            "alr-attack": 5.0,
+            "alr-knee": 0.0,
+            "alr-release": 50.0,
+            "attack": 5.0,
+            "bypass": false,
+            "dithering": "None",
+            "external-sidechain": false,
+            "gain-boost": true,
+            "input-gain": 0.0,
+            "lookahead": 5.0,
+            "mode": "Herm Thin",
+            "output-gain": 0.0,
+            "oversampling": "None",
+            "release": 5.0,
+            "sidechain-preamp": 0.0,
+            "stereo-link": 100.0,
+            "threshold": 0.0
+        },
+        "plugins_order": [
+            "bass_loudness#0",
+            "bass_enhancer#0",
+            "deesser#0",
+            "limiter#0"
+        ]
+    }
+}
