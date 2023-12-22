@@ -6,5 +6,6 @@ dunst &
 udiskie --tray &
 xscreensaver --no-splash &
 setsid easyeffects --gapplication-service &
-setsid picom &
+picom --daemon
+setsid nm-applet &
 exec dwm
