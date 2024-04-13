@@ -5,4 +5,8 @@ transparent_background_colors = true
 background = "#000000"
 
 [window]
-opacity = 0.92
+opacity = 0.51
+
+[font]
+normal = { family = "firacode Nerd Font" }
+size = 12.0
